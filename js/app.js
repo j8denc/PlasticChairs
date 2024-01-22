@@ -40,7 +40,7 @@ function showInfo(results){
       <div class="meta ` + data[i].Alignment + `">
         <p>` + finalText + `</p>
       </div>
-      <img src="https://drive.google.com/thumbnail?authuser=0&sz=w1920&id=` + data[i].Image + `" class="image">
+      <img src="https://drive.google.com/file/d/` + data[i].Image + `" class="image">
     `;
     } else {
       block.classList.add('head');
